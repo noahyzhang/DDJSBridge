@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DDJSBridge_Example' do
+  pod 'DDJSBridge', :path => '../'
+
+  target 'DDJSBridge_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
