@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/noahyzhang/DDJSBridge.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"

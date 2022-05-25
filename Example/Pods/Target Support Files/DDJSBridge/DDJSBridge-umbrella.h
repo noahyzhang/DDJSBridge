@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "test.h"
 
 FOUNDATION_EXPORT double DDJSBridgeVersionNumber;
 FOUNDATION_EXPORT const unsigned char DDJSBridgeVersionString[];

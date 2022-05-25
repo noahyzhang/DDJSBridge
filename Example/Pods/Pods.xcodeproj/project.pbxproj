@@ -8,26 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		326551DF00D57D198EA7A9A5044AE67A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		99ADDB4D679902B8667BF8858D600C7C /* DDJSBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DB498A71BE0A733758881EC1353C1 /* DDJSBridge-dummy.m */; };
-		9B055A97DA5EB51C3932ACA492067E94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77761428659A01AFA5056DF628958BB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		959C59E383B6186E7E0AC20833B57B95 /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = E8BA37A0837B157D20B2BC1C34D466CE /* test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6A2A3FA0B5311E23170F41AD802F151 /* DDJSBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 732FF55022CCF5A1B9BCD99D6F7296C5 /* DDJSBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9EE1EAD60B2E2AEBF62721D48D68B5B /* DDJSBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2EF4C86EE79D6E685657E6E03F5C1E /* DDJSBridge-dummy.m */; };
 		B5BD36936AEE036FA9B430301634F4BB /* Pods-DDJSBridge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 395C7D37AC382C29E87E5E3B76791B6E /* Pods-DDJSBridge_Example-dummy.m */; };
 		BF04924C75D64B7DF1F71BE800980416 /* Pods-DDJSBridge_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 002A53747A03F016F855FC8345A6467C /* Pods-DDJSBridge_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0820488027AD18DF089DAB690A5A2B2 /* Pods-DDJSBridge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44ED2D4368A1D5E726464BD366F8D054 /* Pods-DDJSBridge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D709E639784C55864C7AF1266E9E8DCA /* DDJSBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B73CCE9FDD2F32FD72B0199D3F9D64D8 /* DDJSBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D816543E005AC3AD3146F29EE7BB44BD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEFC7F5CD8DE644A1D64397EC2C361D /* ReplaceMe.m */; };
+		C27F57D01C62F5BB1A3FBA719247930F /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 141668BFF65BA35B3E91F091BB296605 /* test.m */; };
 		DEE173AD20295362FFF3961C4095CEBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E6F162B6BAA9C24A55BDA611F6D50FE5 /* Pods-DDJSBridge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7333210108D420A095DA106A9914DCF /* Pods-DDJSBridge_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		25E466677D369293B27C27B595713285 /* PBXContainerItemProxy */ = {
+		B5151E556226002829A7AC1AEA795E35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 39266D6B3EEB0F6231E6D1724B598569;
 			remoteInfo = DDJSBridge;
 		};
-		3D26F37BE0B7368A4250B03201D7F4C5 /* PBXContainerItemProxy */ = {
+		EE6ECF4A865F6EBF4FA797FC21531E4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,38 +39,39 @@
 
 /* Begin PBXFileReference section */
 		002A53747A03F016F855FC8345A6467C /* Pods-DDJSBridge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDJSBridge_Tests-umbrella.h"; sourceTree = "<group>"; };
-		10087623A69BB9415DD2B78D485C0759 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		141668BFF65BA35B3E91F091BB296605 /* test.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = test.m; path = DDJSBridge/Classes/test.m; sourceTree = "<group>"; };
 		1C318DCEA74F682C84056E17E9B12E82 /* Pods-DDJSBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDJSBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1E26128F6B9352EA5FD3A5D2F1E9066A /* Pods-DDJSBridge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DDJSBridge_Example.modulemap"; sourceTree = "<group>"; };
-		2BEFC7F5CD8DE644A1D64397EC2C361D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DDJSBridge/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2EEC2740498C4BCEC0FD5BCC19FFB763 /* DDJSBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDJSBridge.debug.xcconfig; sourceTree = "<group>"; };
 		3891A913C92ED24E79E169EBE71D10F0 /* Pods-DDJSBridge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDJSBridge_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		395C7D37AC382C29E87E5E3B76791B6E /* Pods-DDJSBridge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDJSBridge_Example-dummy.m"; sourceTree = "<group>"; };
+		3AC5504455C2DF2D47149A8912EF1A80 /* DDJSBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDJSBridge-prefix.pch"; sourceTree = "<group>"; };
 		3BFA1E0DE58B1DF454D18D7987931D8A /* Pods-DDJSBridge_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDJSBridge_Example-Info.plist"; sourceTree = "<group>"; };
 		3F0CFE1677DE07E307B4A0E838227688 /* Pods-DDJSBridge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DDJSBridge_Tests.modulemap"; sourceTree = "<group>"; };
+		442E2478C482B1DC4C63111D55286212 /* DDJSBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDJSBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		44ED2D4368A1D5E726464BD366F8D054 /* Pods-DDJSBridge_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDJSBridge_Example-umbrella.h"; sourceTree = "<group>"; };
-		4F1DB498A71BE0A733758881EC1353C1 /* DDJSBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDJSBridge-dummy.m"; sourceTree = "<group>"; };
 		59ECB297C19B20BA0E52F53AE383D115 /* Pods-DDJSBridge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDJSBridge_Example-frameworks.sh"; sourceTree = "<group>"; };
-		68682F9C66E89623B2EFDAB65B68AB0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		686FB3F39E2FE670FBE8FF580EB121CE /* Pods-DDJSBridge_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DDJSBridge_Example"; path = Pods_DDJSBridge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2EF4C86EE79D6E685657E6E03F5C1E /* DDJSBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDJSBridge-dummy.m"; sourceTree = "<group>"; };
 		721CA3549160C8E7D1A5639108FD58AA /* Pods-DDJSBridge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDJSBridge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		732FF55022CCF5A1B9BCD99D6F7296C5 /* DDJSBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDJSBridge-umbrella.h"; sourceTree = "<group>"; };
+		771A0968E5476617F0B7BDA2DAAC4944 /* DDJSBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDJSBridge.release.xcconfig; sourceTree = "<group>"; };
 		82738B512511AF4919D8D56EB45139C3 /* DDJSBridge */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDJSBridge; path = DDJSBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7F5A2632D34F626BEC1786448F5C5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9B7CC8C8B1683871218364C53D75EBD3 /* Pods-DDJSBridge_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DDJSBridge_Tests"; path = Pods_DDJSBridge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A58CCD6569031B06C20F10CA15F068C3 /* DDJSBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDJSBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7333210108D420A095DA106A9914DCF /* Pods-DDJSBridge_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDJSBridge_Tests-dummy.m"; sourceTree = "<group>"; };
-		A9D862009CF369CEF1EBA9C92BCD3D3B /* DDJSBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDJSBridge-prefix.pch"; sourceTree = "<group>"; };
 		AAB1F1F9DBBA3BF0B40CC14244D09E04 /* Pods-DDJSBridge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDJSBridge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B73CCE9FDD2F32FD72B0199D3F9D64D8 /* DDJSBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDJSBridge-umbrella.h"; sourceTree = "<group>"; };
 		B8309E49F196F25AFAE7FE136DBAD1A7 /* Pods-DDJSBridge_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDJSBridge_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA7AF05F1B87B4586864E13E6C3B661A /* Pods-DDJSBridge_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDJSBridge_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBE50C8E884DA2742E440B5D874F80BA /* DDJSBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDJSBridge.modulemap; sourceTree = "<group>"; };
+		BC0132F633591A8D525F53E1ED59D750 /* DDJSBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDJSBridge-Info.plist"; sourceTree = "<group>"; };
+		C862BD22A64AED671DE7896A9422C08A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D63B1DC9E10CE16C61794EAD714BF8BB /* Pods-DDJSBridge_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDJSBridge_Tests-Info.plist"; sourceTree = "<group>"; };
-		D761B277635771AA4A159C6EB8FDCE46 /* DDJSBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDJSBridge-Info.plist"; sourceTree = "<group>"; };
 		DA2BA501BDFFC7108BEB029B62E2D535 /* Pods-DDJSBridge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDJSBridge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E2BF563B87500BE078D4B2F02F650015 /* DDJSBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDJSBridge.release.xcconfig; sourceTree = "<group>"; };
 		E6D4E8F853B37490AA27D0AC1FE440C1 /* Pods-DDJSBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDJSBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F006F09B4B2EAFC2E29F8B329EAA98C4 /* DDJSBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDJSBridge.debug.xcconfig; sourceTree = "<group>"; };
-		F5DB19D19E12690C3A561214C6541C14 /* DDJSBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDJSBridge.modulemap; sourceTree = "<group>"; };
+		E8BA37A0837B157D20B2BC1C34D466CE /* test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = test.h; path = DDJSBridge/Classes/test.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +83,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A7DFFB1870A385B2BF4628A5C121716 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B055A97DA5EB51C3932ACA492067E94 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B83E1C4296B1CEC8A3867F6E9018261A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,33 +91,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1A6239EAA663E35AEDA68C9020BDB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77761428659A01AFA5056DF628958BB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A570BDCA1D16E0784A587D12ED15E3B /* DDJSBridge */ = {
+		34A6C6ECE2F30A518798857628E08179 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2BEFC7F5CD8DE644A1D64397EC2C361D /* ReplaceMe.m */,
-				5E232EEFC00F802E62282B239F5CD980 /* Pod */,
-				36B39596513954C833B4F6E2514D80DA /* Support Files */,
+				AA1ABF9139FEE0FBE2BC628E841582D9 /* DDJSBridge */,
 			);
-			name = DDJSBridge;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		36B39596513954C833B4F6E2514D80DA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5DB19D19E12690C3A561214C6541C14 /* DDJSBridge.modulemap */,
-				4F1DB498A71BE0A733758881EC1353C1 /* DDJSBridge-dummy.m */,
-				D761B277635771AA4A159C6EB8FDCE46 /* DDJSBridge-Info.plist */,
-				A9D862009CF369CEF1EBA9C92BCD3D3B /* DDJSBridge-prefix.pch */,
-				B73CCE9FDD2F32FD72B0199D3F9D64D8 /* DDJSBridge-umbrella.h */,
-				F006F09B4B2EAFC2E29F8B329EAA98C4 /* DDJSBridge.debug.xcconfig */,
-				E2BF563B87500BE078D4B2F02F650015 /* DDJSBridge.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DDJSBridge";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		54A639AE3C5D1BD4C1EE5FC89E551F9D /* Targets Support Files */ = {
@@ -141,16 +125,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5E232EEFC00F802E62282B239F5CD980 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A58CCD6569031B06C20F10CA15F068C3 /* DDJSBridge.podspec */,
-				68682F9C66E89623B2EFDAB65B68AB0F /* LICENSE */,
-				10087623A69BB9415DD2B78D485C0759 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		682DFB6DDAEC59B5A87CC2B29DB4A3CB /* Pods-DDJSBridge_Tests */ = {
@@ -196,19 +170,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B7AED1C74D6F99FF6CC561F70176237 /* Development Pods */ = {
+		AA1ABF9139FEE0FBE2BC628E841582D9 /* DDJSBridge */ = {
 			isa = PBXGroup;
 			children = (
-				0A570BDCA1D16E0784A587D12ED15E3B /* DDJSBridge */,
+				E8BA37A0837B157D20B2BC1C34D466CE /* test.h */,
+				141668BFF65BA35B3E91F091BB296605 /* test.m */,
+				F3B053C4B663840EF38624E30A49182C /* Pod */,
+				C3F3D812887BA8B94E3744A34E888BA8 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = DDJSBridge;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C3F3D812887BA8B94E3744A34E888BA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE50C8E884DA2742E440B5D874F80BA /* DDJSBridge.modulemap */,
+				6C2EF4C86EE79D6E685657E6E03F5C1E /* DDJSBridge-dummy.m */,
+				BC0132F633591A8D525F53E1ED59D750 /* DDJSBridge-Info.plist */,
+				3AC5504455C2DF2D47149A8912EF1A80 /* DDJSBridge-prefix.pch */,
+				732FF55022CCF5A1B9BCD99D6F7296C5 /* DDJSBridge-umbrella.h */,
+				2EEC2740498C4BCEC0FD5BCC19FFB763 /* DDJSBridge.debug.xcconfig */,
+				771A0968E5476617F0B7BDA2DAAC4944 /* DDJSBridge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DDJSBridge";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9B7AED1C74D6F99FF6CC561F70176237 /* Development Pods */,
+				34A6C6ECE2F30A518798857628E08179 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				82D404EDE97223220A5E7D885C276707 /* Products */,
 				54A639AE3C5D1BD4C1EE5FC89E551F9D /* Targets Support Files */,
@@ -223,6 +216,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F3B053C4B663840EF38624E30A49182C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				442E2478C482B1DC4C63111D55286212 /* DDJSBridge.podspec */,
+				8A7F5A2632D34F626BEC1786448F5C5A /* LICENSE */,
+				C862BD22A64AED671DE7896A9422C08A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,11 +237,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42647427A5E5CAE2BC9A8DE80505AAC1 /* Headers */ = {
+		C010B2DEDCE49E973429997682DCFEF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D709E639784C55864C7AF1266E9E8DCA /* DDJSBridge-umbrella.h in Headers */,
+				A6A2A3FA0B5311E23170F41AD802F151 /* DDJSBridge-umbrella.h in Headers */,
+				959C59E383B6186E7E0AC20833B57B95 /* test.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0504B839A700DAC983E71925D8A9E9A8 /* PBXTargetDependency */,
+				256A0E23AE5A44A655B32DA4A37A8511 /* PBXTargetDependency */,
 			);
 			name = "Pods-DDJSBridge_Example";
 			productName = Pods_DDJSBridge_Example;
@@ -284,7 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				70167C09236A5DF8705FA06BC5D0CB33 /* PBXTargetDependency */,
+				23BDE51499E0DE64D08113CD79425CB4 /* PBXTargetDependency */,
 			);
 			name = "Pods-DDJSBridge_Tests";
 			productName = Pods_DDJSBridge_Tests;
@@ -293,12 +297,12 @@
 		};
 		39266D6B3EEB0F6231E6D1724B598569 /* DDJSBridge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 163394EEE80C060B378FC5D688898587 /* Build configuration list for PBXNativeTarget "DDJSBridge" */;
+			buildConfigurationList = 3649DE6456A9644DD53D6F10894E1BAD /* Build configuration list for PBXNativeTarget "DDJSBridge" */;
 			buildPhases = (
-				42647427A5E5CAE2BC9A8DE80505AAC1 /* Headers */,
-				8353AFBD4DDA2A7F5B4D1643EFAC721A /* Sources */,
-				8A7DFFB1870A385B2BF4628A5C121716 /* Frameworks */,
-				69A2D8C07869E823C44366B72F941775 /* Resources */,
+				C010B2DEDCE49E973429997682DCFEF0 /* Headers */,
+				5E56B6B142986008B58F355E18991D0F /* Sources */,
+				C1A6239EAA663E35AEDA68C9020BDB64 /* Frameworks */,
+				3D15ECAA61F9876FCE4B39703E876C8E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,7 +343,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		69A2D8C07869E823C44366B72F941775 /* Resources */ = {
+		3D15ECAA61F9876FCE4B39703E876C8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +367,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8353AFBD4DDA2A7F5B4D1643EFAC721A /* Sources */ = {
+		5E56B6B142986008B58F355E18991D0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99ADDB4D679902B8667BF8858D600C7C /* DDJSBridge-dummy.m in Sources */,
-				D816543E005AC3AD3146F29EE7BB44BD /* ReplaceMe.m in Sources */,
+				A9EE1EAD60B2E2AEBF62721D48D68B5B /* DDJSBridge-dummy.m in Sources */,
+				C27F57D01C62F5BB1A3FBA719247930F /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +395,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0504B839A700DAC983E71925D8A9E9A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DDJSBridge;
-			target = 39266D6B3EEB0F6231E6D1724B598569 /* DDJSBridge */;
-			targetProxy = 25E466677D369293B27C27B595713285 /* PBXContainerItemProxy */;
-		};
-		70167C09236A5DF8705FA06BC5D0CB33 /* PBXTargetDependency */ = {
+		23BDE51499E0DE64D08113CD79425CB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DDJSBridge_Example";
 			target = 0B182A4A96A0891327E4CE4D218E9AF6 /* Pods-DDJSBridge_Example */;
-			targetProxy = 3D26F37BE0B7368A4250B03201D7F4C5 /* PBXContainerItemProxy */;
+			targetProxy = EE6ECF4A865F6EBF4FA797FC21531E4C /* PBXContainerItemProxy */;
+		};
+		256A0E23AE5A44A655B32DA4A37A8511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DDJSBridge;
+			target = 39266D6B3EEB0F6231E6D1724B598569 /* DDJSBridge */;
+			targetProxy = B5151E556226002829A7AC1AEA795E35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,9 +509,9 @@
 			};
 			name = Release;
 		};
-		4DE725A248758E3AAC3B8558C8A79826 /* Debug */ = {
+		4B6222CAE5B56CE125753600966E46A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F006F09B4B2EAFC2E29F8B329EAA98C4 /* DDJSBridge.debug.xcconfig */;
+			baseConfigurationReference = 2EEC2740498C4BCEC0FD5BCC19FFB763 /* DDJSBridge.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -566,6 +570,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		81DD9EAF177D571BFC132B6967CB9576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771A0968E5476617F0B7BDA2DAAC4944 /* DDJSBridge.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDJSBridge/DDJSBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDJSBridge/DDJSBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DDJSBridge/DDJSBridge.modulemap";
+				PRODUCT_MODULE_NAME = DDJSBridge;
+				PRODUCT_NAME = DDJSBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		9CBE7E61DD3B23508FA60BD1BDD6BD61 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -694,45 +729,14 @@
 			};
 			name = Release;
 		};
-		EDFCF7875F0FBCBDFD7B38777057C96A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2BF563B87500BE078D4B2F02F650015 /* DDJSBridge.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DDJSBridge/DDJSBridge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DDJSBridge/DDJSBridge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DDJSBridge/DDJSBridge.modulemap";
-				PRODUCT_MODULE_NAME = DDJSBridge;
-				PRODUCT_NAME = DDJSBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		163394EEE80C060B378FC5D688898587 /* Build configuration list for PBXNativeTarget "DDJSBridge" */ = {
+		3649DE6456A9644DD53D6F10894E1BAD /* Build configuration list for PBXNativeTarget "DDJSBridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DE725A248758E3AAC3B8558C8A79826 /* Debug */,
-				EDFCF7875F0FBCBDFD7B38777057C96A /* Release */,
+				4B6222CAE5B56CE125753600966E46A4 /* Debug */,
+				81DD9EAF177D571BFC132B6967CB9576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
