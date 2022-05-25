@@ -1,0 +1,6 @@
+framework module DDJSBridge {
+  umbrella header "DDJSBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}
